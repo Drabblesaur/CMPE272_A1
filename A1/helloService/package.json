@@ -1,0 +1,14 @@
+{
+  "name": "helloservice",
+  "version": "1.0.0",
+  "description": "Hello Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Johnny To",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

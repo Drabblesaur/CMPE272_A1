@@ -1,0 +1,14 @@
+{
+  "name": "worldservice",
+  "version": "1.0.0",
+  "description": "World Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Johnny To",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
