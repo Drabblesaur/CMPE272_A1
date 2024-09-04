@@ -1,0 +1,13 @@
+FROM node:22-alpine
+
+WORKDIR /helloService
+
+COPY package.json /helloService
+
+RUN npm install
+
+COPY . /helloService
+
+EXPOSE 3030
+
+CMD ["node","index.js"]

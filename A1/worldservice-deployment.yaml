@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: worldservice-deployment
+  labels:
+    app: worldservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: worldservice
+  template:
+    metadata:
+      labels:
+        app: worldservice
+    spec:
+      containers:
+        - image: drabblesaur/a1worldservice:1.1
+          name: worldservice
+          ports:
+            - containerPort: 4000
