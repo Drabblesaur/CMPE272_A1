@@ -76,7 +76,7 @@ Remember the URLs of the services we set up in the previous step? Just paste the
 
 Next, run `npm install` to load all the modules and use `npm run start` to start the client
 
-![Screenshot 2024-09-03 at 11.36.07 PM.png](CMPE%20272%20Assignment%201%20770de8cf48304199bd26f0469b4e8154/Screenshot_2024-09-03_at_11.36.07_PM.png)
+![Screenshot]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/Drabblesaur/CMPE272_A1/blob/main/Screenshot_2024-09-03_at_11.36.07_PM.png))
 
 If everything works, you should see something like this above. Use the “Test Microservices” to test the assignment! (Check Console for the logs)
 
